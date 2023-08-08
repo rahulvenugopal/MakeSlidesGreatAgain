@@ -24,3 +24,4 @@ Solarised Dark | Material Palenight
 2. I looked up the repo and blindly copied the `css` folder, `index.Rmd`, `libs` and `collpaseoutput.js` files
 3. I looked up [metathis](https://presentable-user2021.netlify.app/packages/metathis/) and [this](https://xeurmia.netlify.app/?panelset1=panel-12#1)
 4. I got a fair idea of the extras and css styling syntax
+5. Setup the xaringanExtras. `Progress bar`, `logo`, `tileview`, `clipboard`, `broadcast`
