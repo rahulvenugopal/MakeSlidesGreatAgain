@@ -97,6 +97,39 @@ layout: true
   100% { width: calc(var(--slide-current) / var(--slide-total) * 100%); }
 }</style>
 
+<div>
+<style type="text/css">.xaringan-extra-logo {
+width: 100px;
+height: 100px;
+z-index: 0;
+background-image: url(https://raw.githubusercontent.com/rahulvenugopal/MakeSlidesGreatAgain/main/Slides/images/open-source.png);
+background-size: contain;
+background-repeat: no-repeat;
+position: absolute;
+top:1em;right:1em;
+}
+</style>
+<script>(function () {
+  let tries = 0
+  function addLogo () {
+    if (typeof slideshow === 'undefined') {
+      tries += 1
+      if (tries < 10) {
+        setTimeout(addLogo, 100)
+      }
+    } else {
+      document.querySelectorAll('.remark-slide-content:not(.title-slide):not(.inverse):not(.hide_logo)')
+        .forEach(function (slide) {
+          const logo = document.createElement('a')
+          logo.classList = 'xaringan-extra-logo'
+          logo.href = 'https://rahulvenugopal.github.io/haveyoumetrahul/'
+          slide.appendChild(logo)
+        })
+    }
+  }
+  document.addEventListener('DOMContentLoaded', addLogo)
+})()</script>
+</div>
 
 
 
