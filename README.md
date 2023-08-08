@@ -25,3 +25,5 @@ Solarised Dark | Material Palenight
 3. I looked up [metathis](https://presentable-user2021.netlify.app/packages/metathis/) and [this](https://xeurmia.netlify.app/?panelset1=panel-12#1)
 4. I got a fair idea of the extras and css styling syntax
 5. Setup the xaringanExtras. `Progress bar`, `logo`, `tileview`, `clipboard`, `broadcast`
+6. `Broadcast` is not working offline. I have to lookup hosting this onto a Github page
+7. Added the webcam onto slides. This is kickass. Perfect when teaching
