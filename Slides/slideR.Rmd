@@ -1,5 +1,5 @@
 ---
-title: "Welcome to the world of R"
+title: "Welcome to the R world"
 subtitle: "The basics,<br>data wrangling,<br>and more!"
 output: 
   xaringan::moon_reader:
