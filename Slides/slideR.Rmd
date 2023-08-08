@@ -74,6 +74,20 @@ meta() %>%
   )
 ```
 
+```{r xaringanExtra, echo = FALSE}
+xaringanExtra::use_progress_bar(color = "#5d9a00",
+                                location = "top", 
+                                height = "5px")
+```
+
+```{r xaringan-logo, echo=FALSE}
+xaringanExtra::use_logo(
+  image_url = "https://raw.githubusercontent.com/rstudio/hex-stickers/master/PNG/xaringan.png",
+  link_url = "https://rahulvenugopal.github.io/haveyoumetrahul/",
+  position = xaringanExtra::css_position(top = "1em", right = "1em")
+)
+```
+
 ```{r setup, include=FALSE}
 
 workshop_day <- format(as.Date("2023-07-20"), format="%B %d %Y")
@@ -102,7 +116,6 @@ xaringanExtra::use_extra_styles(
   hover_code_line = TRUE,
   mute_unhighlighted_code = FALSE
 )
-
 
 knitr::opts_chunk$set(warning = F, message = F) # Whether to display errors
 ```

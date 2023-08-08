@@ -22,4 +22,5 @@ Solarised Dark | Material Palenight
 ## Cookbook for creating slides using `Xaringan` and RStudio
 1. [Fabio Votta](https://favstats.github.io/ds3_r_intro/#1) had this kickass slide deck on `Intro to R programming` which shook me out of my procrastination couch
 2. I looked up the repo and blindly copied the `css` folder, `index.Rmd`, `libs` and `collpaseoutput.js` files
-3. 
+3. I looked up [metathis](https://presentable-user2021.netlify.app/packages/metathis/) and [this](https://xeurmia.netlify.app/?panelset1=panel-12#1)
+4. I got a fair idea of the extras and css styling syntax
