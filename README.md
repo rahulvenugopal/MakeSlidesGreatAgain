@@ -6,6 +6,7 @@
 4. [Animate Xaringan Slide Transitions](https://www.garrickadenbuie.com/blog/animate-xaringan-slide-transitions/)
 5. [Sharing Your Work with xaringan](https://spcanelon.github.io/xaringan-basics-and-beyond/)
 6. [Making great slides with Xaringan](https://presentable-user2021.netlify.app/) and [video](https://www.youtube.com/watch?v=RPFh3y9UAX4&list=PL4IzsxWztPdnCC_kMCYKrd_t6cViMhBrD)
+7. [HTML and tweaking the slides](https://arm.rbind.io/slides/xaringan.html#1)
 
 ## Level up stuff
 1. [Making Extra Great Slides with xaringan](https://slides.garrickadenbuie.com/extra-great-slides/intro/#1)

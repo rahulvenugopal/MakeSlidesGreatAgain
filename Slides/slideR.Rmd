@@ -117,7 +117,7 @@ knitr::opts_chunk$set(
 xaringanExtra::use_tile_view()
 xaringanExtra::use_panelset()
 xaringanExtra::use_clipboard()
-xaringanExtra::use_webcam(width=100, height=100)
+xaringanExtra::use_webcam(width=150, height=150)
 
 xaringanExtra::use_extra_styles(
   hover_code_line = TRUE,
@@ -190,6 +190,12 @@ knitr::include_graphics("images/ghost.jpg")
 ```{r, echo = F, out.width="80%", fig.align = 'center'}
 knitr::include_graphics("images/Welcome.png")
 ```
+
+---
+## R Packages
+```{r, echo = F, out.width="70%",out.height="70%", fig.align = 'center'}
+knitr::include_graphics("images/R_hexes.png")
+```
 ---
 
 ## R Packages
@@ -237,8 +243,7 @@ Think of `install.packages` as buying a set of tools (for free!) and `library` a
 
 The tidyverse describes itself:
 
-> The tidyverse is an opinionated **collection of R packages** designed for data science. All packages share an underlying design philosophy, grammar, and data structures.
-
+> The tidyverse is an opinionated `collection of R packages` designed for data science. All packages share an underlying design philosophy, grammar, and data structures.
 
 <center>
 <img src="https://rstudio-education.github.io/tidyverse-cookbook/images/data-science-workflow.png" style="width: 60%" />
@@ -246,7 +251,7 @@ The tidyverse describes itself:
 
 ---
 
-## Core principle: tidy data
+## Core principle: `Tidy data`
 
 <center>
 <img src="https://www.openscapes.org/img/blog/tidydata/tidydata_2.jpg" style="width: 80%" />
@@ -255,7 +260,7 @@ The tidyverse describes itself:
 .fifty[Artist: [Allison Horst](https://github.com/allisonhorst)]
 ---
 
-## Core principle: tidy data
+## Core principle: `Tidy data`
 
 Tidy data has two decisive advantages:
 
@@ -294,9 +299,8 @@ Meet the Palmer penguins! Data were collected and made available by [Dr. Kristen
 
 
 ---
-<center>
-<img src="images/palmer_station.png" style="width: 80%" />
-</center>
+background-image: url(images/palmer_station.png)
+background-size:cover
 
 ---
 <center>
@@ -431,3 +435,23 @@ when you want to aggregate your data (by groups)
 style="height: 50%" />
 
 </center>
+
+---
+background-image: url(images/showcase/sleep.png)
+background-size:contain
+
+---
+background-image: url(images/showcase/matchbox.jpeg)
+background-size:contain
+
+---
+background-image: url(images/showcase/ccswebsite.png)
+background-size:contain
+
+---
+background-image: url(images/showcase/Leo_replicate_viz.png)
+background-size:contain
+
+---
+background-image: url(images/showcase/winner.jpeg)
+background-size:contain
