@@ -437,6 +437,12 @@ style="height: 50%" />
 </center>
 
 ---
+
+class: center, middle
+
+## `Simpson's paradox`
+
+---
 background-image: url(images/showcase/sleep.png)
 background-size:contain
 
