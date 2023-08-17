@@ -29,3 +29,6 @@ Solarised Dark | Material Palenight
 5. Setup the xaringanExtras. `Progress bar`, `logo`, `tileview`, `clipboard`, `broadcast`
 6. `Broadcast` is not working offline. I have to lookup hosting this onto a Github page
 7. Added the webcam onto slides. This is kickass. Perfect when teaching
+
+## Hosting the rendered html in GitHub pages
+1. [Deploying xaringan Slides with GitHub Pages](https://rviews.rstudio.com/2021/11/18/deploying-xaringan-slides-a-ten-step-github-pages-workflow/)
