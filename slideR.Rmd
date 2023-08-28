@@ -66,7 +66,7 @@ meta() %>%
   meta_name("github-repo" = "rahulvenugopal/xxx") %>%
   meta_social(
     title = "Intro to Tidyverse",
-    image = "images/data_magician.jpeg",
+    image = "https://raw.githubusercontent.com/rahulvenugopal/MakeSlidesGreatAgain/main/images/data_magician.png",
     url = "https://rahulvenugopal.github.io/haveyoumetrahul/",
     og_type = "website",
     og_author = "Rahul Venugopal",
