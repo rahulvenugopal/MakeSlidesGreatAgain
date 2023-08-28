@@ -66,7 +66,7 @@ meta() %>%
   meta_name("github-repo" = "rahulvenugopal/xxx") %>%
   meta_social(
     title = "Intro to Tidyverse",
-    image = "https://raw.githubusercontent.com/rahulvenugopal/MakeSlidesGreatAgain/main/images/data_magician.png",
+    image = NULL,
     url = "https://rahulvenugopal.github.io/haveyoumetrahul/",
     og_type = "website",
     og_author = "Rahul Venugopal",
@@ -132,6 +132,9 @@ knitr::opts_chunk$set(warning = F, message = F) # Whether to display errors
 name: title-slide
 class: primary
 
+.rightcol70[
+<img src="images/data_magician.png?raw=true" style="width: 90%" />
+]
 
 #.fancy[`r rmarkdown::metadata$title`] 
 
@@ -462,3 +465,45 @@ background-size:contain
 ---
 background-image: url(images/showcase/winner.jpeg)
 background-size:contain
+
+---
+
+class: center, middle
+
+## `Best of both worlds | Animated`
+
+---
+
+![](images/animations/semi-join.gif)
+
+---
+
+![](images/animations/semi-join.gif)
+
+---
+
+![](images/animations/semi-join.gif)
+
+---
+
+![](images/animations/semi-join.gif)
+
+---
+
+![](images/animations/semi-join.gif)
+
+---
+
+![](images/animations/semi-join.gif)
+
+---
+
+![](images/animations/semi-join.gif)
+
+---
+
+![](images/animations/semi-join.gif)
+
+---
+
+![](images/animations/semi-join.gif)
