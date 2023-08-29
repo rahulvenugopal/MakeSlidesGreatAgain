@@ -60,7 +60,7 @@ layout: true
 library(metathis)
 meta() %>%
   meta_general(
-    description = "Welcome to the Tidyverse",
+    description = "Welcome to the Tidyverse", # Used by search engines
     generator = "xaringan and remark.js"
   ) %>%
   meta_name("github-repo" = "rahulvenugopal/xxx") %>%
@@ -143,11 +143,12 @@ class: primary
 
 <br>
 
-Rahul Venugopal
-
-[`r fa(name = "twitter", fill = "black")`](http://twitter.com/rhlvenugopal)<br>
-[`r fa(name = "github", fill = "black")` ](http://github.com/rahulvenugopal)<br>
-[`r fa(name = "link", fill = "black")` ](https://rahulvenugopal.github.io/haveyoumetrahul/)
+Rahul Venugopal<br>
+[`r fa(name = "twitter", fill = "#1DA1F2")`](http://twitter.com/rhlvenugopal) | 
+[`r fa(name = "github", fill = "#81007f")` ](http://github.com/rahulvenugopal) |
+[`r fa(name = "graduation-cap", fill = "#4285f4")` ](https://scholar.google.com/citations?user=prTMUhkAAAAJ&hl=en&oi=ao) |
+[`r fa(name = "computer", fill = "black")` ](https://rahulvenugopal.github.io/haveyoumetrahul/)<br>
+`r workshop_day` 
 
 ---
 
@@ -445,6 +446,15 @@ style="height: 50%" />
 class: center, middle
 
 ## `Simpson's paradox`
+
+---
+
+<img src="images/palmer_full.png?raw=true" style="width: 100%" />
+]
+
+---
+<img src="images/palmer_species.png?raw=true" style="width: 100%" />
+
 
 ---
 background-image: url(images/showcase/sleep.png)
