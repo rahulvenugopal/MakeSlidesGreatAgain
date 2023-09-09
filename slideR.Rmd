@@ -445,17 +445,6 @@ Long to wide | Wide to long
 style="height: 50%" />
 
 </center>
----
-
-class: center, middle
-
-## `gather()`
-
-helps you create variables
----
-
-<img src="images/mutate.png" style="width: 80%" />
-
 
 ---
 # Time for a break
