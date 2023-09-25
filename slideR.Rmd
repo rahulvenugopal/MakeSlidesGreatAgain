@@ -83,11 +83,11 @@ xaringanExtra::use_progress_bar(color = "#5d9a00",
 
 ```{r xaringan-logo, echo=FALSE}
 xaringanExtra::use_logo(
-  image_url = "https://raw.githubusercontent.com/rstudio/hex-stickers/main/PNG/xaringan.png",
+  image_url = "images/rvg_logo.png",
   width = "50px",
   height = "50px",
   link_url = "https://rahulvenugopal.github.io/haveyoumetrahul/",
-  position = xaringanExtra::css_position(top = "1em", right = "1em")
+  position = xaringanExtra::css_position(top = "1em", right = 0)
 )
 ```
 
@@ -97,7 +97,7 @@ xaringanExtra::use_broadcast()
 
 ```{r setup, include=FALSE}
 
-workshop_day <- format(as.Date("2023-07-20"), format="%B %d %Y")
+workshop_day <- format(as.Date("2023-09-29"), format="%B %d %Y")
 pacman::p_load(tidyverse, fontawesome, tidyverse, knitr)
 
 options(
