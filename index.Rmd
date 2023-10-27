@@ -97,7 +97,7 @@ xaringanExtra::use_broadcast()
 
 ```{r setup, include=FALSE}
 
-workshop_day <- format(as.Date("2023-09-29"), format="%B %d %Y")
+workshop_day <- format(as.Date("2023-10-27"), format="%B %d %Y")
 pacman::p_load(tidyverse, fontawesome, tidyverse, knitr)
 
 options(
