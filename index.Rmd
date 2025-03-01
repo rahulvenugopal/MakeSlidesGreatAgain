@@ -1,6 +1,6 @@
 ---
 title: "Welcome to the R world"
-subtitle: "The basics,<br>data wrangling,<br>and more!"
+subtitle: "Have you seen<br>a hacker with <br>a mouse 🖱️"
 output: 
   xaringan::moon_reader:
     css:
@@ -97,7 +97,7 @@ xaringanExtra::use_broadcast()
 
 ```{r setup, include=FALSE}
 
-workshop_day <- format(as.Date("2023-10-27"), format="%B %d %Y")
+workshop_day <- format(as.Date("2025-03-01"), format="%B %d %Y")
 pacman::p_load(tidyverse, fontawesome, tidyverse, knitr)
 
 options(
@@ -160,11 +160,11 @@ Rahul Venugopal<br>
 ]
 
 .rightcol60[
-+ Ph.D scholar at Centre for Consciousness Studies, NIMHANS, India
++ Postdoc at Centre for Consciousness Studies, NIMHANS, India
 
-+ Cracking the brain's code with an engineer's wand
++ Building a bridge between `squishy neurons` and `deep existential feels`
 
-+ I love to teach and mentor
++ I love teaching and mentoring
 ]
 
 ---
@@ -471,12 +471,6 @@ class: center, middle
 
 
 ---
-<video width='80%'>
-<source src="images/showcase/animation_covid.mp4" type="video/mp4" >
-</video>
-
-
----
 background-image: url(images/showcase/sleep.png)
 background-size:contain
 
@@ -522,10 +516,6 @@ background-size:contain
 
 ---
 background-image: url(images/showcase/personality.png)
-background-size:contain
-
----
-background-image: url(images/showcase/Self_Association.png)
 background-size:contain
 
 ---
